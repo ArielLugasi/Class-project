@@ -23,8 +23,8 @@ $mail->SMTPAuth = true;
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
-$mail->Username = "ariellugasi1@gmail.com";
-$mail->Password = "zinv qwat eteq wsom";
+$mail->Username = "Example@gmail.com";
+$mail->Password = "Enter ur email password access";
 
 $mail->isHtml(true);
 
