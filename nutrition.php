@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($foodName)) {
         CURLOPT_CUSTOMREQUEST => "GET",
         CURLOPT_HTTPHEADER => [
             "X-RapidAPI-Host: nutrition-by-api-ninjas.p.rapidapi.com",
-            "X-RapidAPI-Key: f8daa1e377msh2090666bcb99438p12a9b5jsn2f667fa06844"
+            "X-RapidAPI-Key: Enter your key from ninja api site"
         ],
     ]);
 
