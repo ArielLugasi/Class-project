@@ -1,0 +1,174 @@
+/* registerStyleRetro.css */
+
+/* Apply a retro background pattern to the body */
+body {
+    background-image: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style the header with retro colors and typography */
+header {
+    background-color: black; /* Retro orange */
+    color: white; /* Dark text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Bangers', cursive; /* Retro-style font */
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Style the main content area with retro background */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style form labels with a retro font */
+label {
+    display: block;
+    font-family: 'Pacifico', cursive; /* Retro-style font */
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Style form inputs with retro colors and border styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black; /* Retro orange border */
+    background-color: #f3f3f3; /* Light gray background */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the role select */
+select#role {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style the Register button with retro colors */
+button[type="submit"],
+.button-27 {
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+/* Style the footer with retro colors and typography */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2e2e2e; /* Dark gray background */
+    color: #fff; /* White text color */
+}
+
+footer p {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+    background-color: black; /* Blue background color */
+    border-radius: 200px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+/* Style the table with a retro design */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+}
+
+th {
+    background-color: black; /* Retro orange */
+    color: white; /* White text color */
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+td {
+    background-color: #f3f3f3; /* Light orange background */
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid black; /* Retro orange border bottom */
+}
+
+/* Style table rows with alternating background colors */
+tr:nth-child(even) {
+    background-color: #f3f3f3; /* Lighter orange */
+}
+.inbox-container {
+    max-height: 300px; /* Set the desired fixed height */
+    overflow-y: auto; /* Add a vertical scrollbar if needed */
+}
+
